@@ -39,7 +39,7 @@ for parse_elem_1 in response_paris:
                                 price_of_gold_per_all=gold_price_per_plashka*N
                                 print(f'{price_of_gold_per_all} грн Ви отримаєте з золота цієї оперативи, а заплатили Ви {price_for_buying}')
                                 if price_of_gold_per_all > price_for_buying:
-                                    print(f"Ну Ви в плюсі на {price_of_gold_per_all-price_for_buying} грн, молодець, а тепер в Вас є {price_of_gold_per_all-price_for_buying+B}")
+                                    print(f"Ну Ви в плюсі на {price_of_gold_per_all-price_for_buying} грн, молодець, а тепер в Вас є {price_of_gold_per_all-price_for_buying+B} грн")
                                 elif price_of_gold_per_all==price_for_buying:
                                     print('Ну хоть в 0 вийшли')
                                 else: print(f'Ви успішно профукали {price_for_buying-price_of_gold_per_all} грн, сумно')
